@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Benton Sans', Helvetica, Arial, sans-srif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+input,
+textarea {
+  padding: 5px;
+  margin: 5px 0px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100%;
+  resize: vertical;
+}
+
+select {
+  padding: 5px;
+  margin: 5px 0px 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #f0f0f0;
+  width: 60px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary {
+  margin-bottom: 20px;
+  background-color: #fe6568;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #d63e41;
+}
+
+.secondary {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #fe6568;
+}
+
+.secondary:hover {
+  border: 1px solid #fe6568;
+  background-color: #ffcecf;
+}
+
+.delete {
+  background-color: #f0f0f0;
+  padding: 5px;
+  width: 60px;
+  margin: 5px 0px 5px 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #fe6568;
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info {
+  margin: 9px 0px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+  color: #888;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.info:hover {
+  border: 1px solid #fe6568;
+  color: #fe6568;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  width: 500px;
+}
+
+.label {
+  margin: 0;
+}
+
+.error {
+  color: #d63e41;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: none;
+  font-size: 12px;
+}
+
+.dragdrop {
+  margin: 10px 0px;
+  padding: 20px 5px;
+  border: 2px dashed #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+input[type='text'] {
+  flex: 1;
+}
+
+.field {
+  border: 1px solid #f0f0f0;
+  padding: 3px;
+  border-radius: 3px;
+  margin: 3px 0px;
+  display: flex;
+  cursor: pointer;
+}
+
+.field:hover {
+  background-color: #f5f5f5;
+}
+
+.fieldText {
+  margin-left: 10px;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.nested {
+  width: 6px;
+  margin-top: 7px;
+  height: 6px;
+  background-color: #ccc !important;
+}
+
+.checked {
+  background-color: #fe6568;
+}
+
+.selections {
+  margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selections a {
+  color: #fe6568;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0px 10px;
+  font-weight: medium;
+}
+
+.selections a:hover {
+  color: #d63e41;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.bearerDiv {
+  display: flex;
+  align-items: center;
+}
+
+.bearerLabel {
+  margin-right: 5px;
+}
+
+.small {
+  font-size: 12px;
+  color: #555;
+  cursor: pointer;
+}
+
+.loadError {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
